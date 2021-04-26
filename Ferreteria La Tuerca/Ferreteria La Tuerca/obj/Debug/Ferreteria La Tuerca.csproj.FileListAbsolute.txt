@@ -1,0 +1,11 @@
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\bin\Debug\Ferreteria La Tuerca.exe.config
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\bin\Debug\Ferreteria La Tuerca.exe
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\bin\Debug\Ferreteria La Tuerca.pdb
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria La Tuerca.csprojAssemblyReference.cache
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria_La_Tuerca.FrmLogin.resources
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria_La_Tuerca.GUILayer.Principal.FrmPrincipal.resources
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria_La_Tuerca.Properties.Resources.resources
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria La Tuerca.csproj.GenerateResource.cache
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria La Tuerca.csproj.CoreCompileInputs.cache
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria La Tuerca.exe
+C:\Users\a\source\repos\Ferreteria La Tuerca\Ferreteria La Tuerca\obj\Debug\Ferreteria La Tuerca.pdb
