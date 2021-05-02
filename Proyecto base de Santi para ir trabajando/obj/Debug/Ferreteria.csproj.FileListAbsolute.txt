@@ -1,0 +1,17 @@
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.exe.config
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.Principal.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.dll
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.xml
