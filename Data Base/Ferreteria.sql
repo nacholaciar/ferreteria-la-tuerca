@@ -8,7 +8,6 @@ borrado int DEFAULT 0
 Constraint PK_Categoria_idCategoria PRIMARY KEY (idCategoria)
 )
 
-
 create table Marca
 (idMarca int IDENTITY(1,1) NOT NULL,
 descripcion varchar (50) NOT NULL,
@@ -81,7 +80,7 @@ Constraint PK_TipoDocumento_idTipoDocumento PRIMARY KEY (idTipoDocumento)
 )
 
 create table Articulo
-(codProducto int /*IDENTITY(1,1)'*/ NOT NULL,
+(codProducto int IDENTITY(1,1) NOT NULL,
 descripcion varchar (50) NOT NULL,
 codUnidad int,
 precioUnitario float, 
@@ -103,7 +102,7 @@ Constraint FK_Barrio_localidad FOREIGN KEY (localidad) REFERENCES Localidad(codL
 )
 
 create table Proveedor
-(codProveedor int /*IDENTITY(1,1)*/ NOT NULL,
+(codProveedor int IDENTITY(1,1) NOT NULL,
 CUIT int,
 razonSocial varchar(50) NOT NULL,
 nombre varchar(50),
@@ -120,7 +119,7 @@ Constraint FK_Proveedor_barrio FOREIGN KEY (codBarrio) REFERENCES Barrio(codBarr
 create table ArticuloXLote
 (idLote int NOT NULL,
 codArticulo int NOT NULL,
-fechaIngreso datetime,
+fechaIngreso date,
 stockInicial int,
 codProveedor int,
 borrado int DEFAULT 0,
@@ -135,9 +134,9 @@ create table Empleado
 nroDocEmpleado int NOT NULL,
 apellido varchar(50),
 nombre varchar(50),
-fechaNac datetime,
+fechaNac date,
 telefono varchar(50),
-fechaIngreso datetime,
+fechaIngreso date,
 borrado int DEFAULT 0,
 Constraint PK_Empleado PRIMARY KEY (tipoDocEmpleado,nroDocEmpleado),
 Constraint FK_Empleado_tipoDoc FOREIGN KEY (tipoDocEmpleado) REFERENCES TipoDocumento(idTipoDocumento)
@@ -161,30 +160,32 @@ Constraint FK_Cliente_barrio FOREIGN KEY (codBarrio) REFERENCES Barrio(codBarrio
 )
 
 create table Usuario
-(codUsuario int NOT NULL, 
+(codUsuario int IDENTITY(1,1) NOT NULL, 
 nombreUsuario varchar(50),
-Upassword varchar(50), 
+passwordUser varchar(50), 
 perfil int,
 dniEmpleado int,
-tipoDocCliente int,
+tipoDocEmpleado int,
 borrado int DEFAULT 0,
 Constraint PK_Usuario PRIMARY KEY (codUsuario),
-Constraint FK_Usuario_perfil FOREIGN KEY (tipoDocCliente) REFERENCES TipoDocumento(idTipoDocumento),
-Constraint FK_Usuario_Empleado FOREIGN KEY (dniEmpleado,tipoDocCliente) REFERENCES Empleado(tipoDocEmpleado,nroDocEmpleado)
+Constraint FK_Usuario_Perfil FOREIGN KEY(Perfil) REFERENCES Perfil(idPerfil),
+Constraint FK_Usuario_Empleado FOREIGN KEY (tipoDocEmpleado,dniEmpleado) REFERENCES Empleado(tipoDocEmpleado,nroDocEmpleado)
 )
 
-create table ModuloXPerfil
+create table ModuloXPerfildniEmpleado
 (idModulo int NOT NULL, 
-idPerfil int NOT NULL, 
+idPerfil int NOT NULL,
+borrado int DEFAULT 0,
 Constraint PK_ModuloXPerfil PRIMARY KEY (idModulo,idPerfil),
 Constraint FK_ModuloXPerfil_Modulo FOREIGN KEY (idModulo) REFERENCES Modulo(idModulo),
 Constraint FK_ModuloXPerfil_idPerfil FOREIGN KEY (idPerfil) REFERENCES Perfil(idPerfil)
 )
 
 create table OrdenDeCompra
-(codCompra int NOT NULL, 
+(codCompra int NOT NULL IDENTITY(1,1), 
 idProveedor int NOT NULL, 
-fecha datetime,
+fecha date,
+borrado int DEFAULT 0,
 Constraint PK_OrdenDeCompra PRIMARY KEY (codCompra,idProveedor),
 Constraint FK_OrdenDeCompra_idProveedor FOREIGN KEY (idProveedor ) REFERENCES Proveedor(codProveedor)
 )
@@ -195,6 +196,7 @@ idProveedor int NOT NULL,
 codProd int NOT NULL, 
 precioUnitario float,
 cantidad int,
+borrado int DEFAULT 0,
 Constraint PK_DetOrdenCompra PRIMARY KEY (codCompra,idProveedor,codProd),
 Constraint FK_DetOrdenCompra_Compra FOREIGN KEY (codCompra,idProveedor) REFERENCES OrdenDeCompra(codCompra,idProveedor),
 Constraint FK_DetOrdenCompra_codProd  FOREIGN KEY (codProd ) REFERENCES Articulo(codProducto)
@@ -204,6 +206,7 @@ Constraint FK_DetOrdenCompra_codProd  FOREIGN KEY (codProd ) REFERENCES Articulo
 create table ArticuloXProveedor
 (codProveedor int NOT NULL,
 codProducto int NOT NULL,
+borrado int DEFAULT 0,
 Constraint PK_ArticuloXProveedor PRIMARY KEY(codProveedor,codProducto),
 Constraint FK_ArticuloXProveedor_codProveedor FOREIGN KEY(codProveedor) REFERENCES Proveedor(codProveedor),
 Constraint FK_ArticuloXProveedor_codProducto FOREIGN KEY(codProducto) REFERENCES Articulo(codProducto),
@@ -217,7 +220,7 @@ tipoDocCliente int,
 nroDocCliente int,
 tipoDocEmpleado int,
 nroDocEmpleado int,
-fecha datetime,
+fecha date,
 idEstado int,
 borrado int DEFAULT 0,
 Constraint PK_Venta PRIMARY KEY (nroFactura,tipoFactura),
@@ -235,10 +238,10 @@ codProd int NOT NULL,
 idLote int,
 precioUnitario int,
 cantidad int,
-Constraint PK_DetFacturaVenta PRIMARY KEY(nroFactura,tipoFactura,codProd,idLote),
-Constraint FK_Venta_Factura FOREIGN KEY(nroFactura,tipoFactura) REFERENCES Venta(nroFactura,tipoFactura),
-Constraint FK_Venta_Lote FOREIGN KEY(idLote) REFERENCES Lote(idLote),
-
+borrado int DEFAULT 0,
+Constraint PK_DetFacturaVenta PRIMARY KEY(nroFactura,codProd,idLote,tipoFactura),
+Constraint FK_DetFacturaVenta_Factura FOREIGN KEY(nroFactura,tipoFactura) REFERENCES Venta(nroFactura,tipoFactura),
+Constraint FK_Venta_ArticuloXLote FOREIGN KEY(codProd,idLote) REFERENCES ArticuloXLote (idLote,codArticulo)
 )
 
 create table FormasPagoVenta
@@ -246,8 +249,9 @@ create table FormasPagoVenta
 tipofactura int NOT NULL,
 idFormaPago int NOT NULL IDENTITY(1,1),
 montoPago int,
-fechaPago datetime,
-Constraint PK_FormasPagoVenta PRIMARY KEY (nroFactura,tipoFactura,IdformaPago),
+fechaPago date,
+borrado int DEFAULT 0,
+Constraint PK_FormasPagoVenta PRIMARY KEY (nroFactura,IdformaPago,tipoFactura),
 Constraint FK_FormasPagoVenta_Venta FOREIGN KEY (nroFactura,tipoFactura) REFERENCES Venta(nroFactura,tipoFactura),
 Constraint FK_FormasPagoVenta_TiposFormasPago FOREIGN KEY (idFormaPago) REFERENCES TipoFormaPago(idFormaPago),
 
@@ -256,16 +260,21 @@ Constraint FK_FormasPagoVenta_TiposFormasPago FOREIGN KEY (idFormaPago) REFERENC
 
 create table Entrega
 (codEntrega int NOT NULL IDENTITY(1,1),
-fechaEntrega datetime,
-fechaRealEntrega datetime,
+fechaEntrega date,
+fechaRealEntrega date,
 idEstado int,
 nroFactura int,
 tipoFactura int,
 tipoDocEmpleado int,
 nroDocEmpleado int,
-Constraint PK_Entrega PRIMARY KEY (codEntrega),
+borrado int DEFAULT 0,
+Constraint PK_Entrega PRIMARY KEY (codEntrega,tipoFactura,nroFactura),
 Constraint FK_Entrega_Estado FOREIGN KEY (idEstado) REFERENCES Estado(idEstado),
 Constraint FK_Entregas_Venta FOREIGN KEY (nroFactura,tipoFactura) REFERENCES Venta(nroFactura,tipoFactura),
 Constraint FK_Entrega_Empleado FOREIGN KEY(tipoDocEmpleado,nroDocEmpleado) REFERENCES Empleado(tipoDocEmpleado,nroDocEmpleado),
 
 )
+INSERT INTO Perfil(descripcion) VALUES ('Admin')
+INSERT INTO TipoDocumento(descripcion) VALUES ('D.N.I')
+INSERT INTO Empleado(tipoDocEmpleado,nroDocEmpleado,apellido,nombre,fechaNac,telefono,fechaIngreso) VALUES ('1','41778402','Ferrari','Ramiro','19990314','351376883','')
+INSERT INTO Usuario(nombreUsuario,passwordUser,perfil,dniEmpleado,tipoDocEmpleado) VALUES ('ramiro','123','1','41778402','1')
