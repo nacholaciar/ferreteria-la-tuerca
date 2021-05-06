@@ -53,7 +53,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos\AD_Perfiles.cs" />
     <Compile Include="AccesoADatos\AD_Usuarios.cs" />
+    <Compile Include="AltaPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaPerfil.Designer.cs">
+      <DependentUpon>AltaPerfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinesLogic\AB_Varios.cs" />
     <Compile Include="CargaSistema.cs">
       <SubType>Form</SubType>
@@ -62,6 +69,7 @@
       <DependentUpon>CargaSistema.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Perfil.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -83,6 +91,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltaPerfil.resx">
+      <DependentUpon>AltaPerfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CargaSistema.resx">
       <DependentUpon>CargaSistema.cs</DependentUpon>
     </EmbeddedResource>
