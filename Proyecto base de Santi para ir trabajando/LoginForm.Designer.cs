@@ -92,6 +92,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(283, 31);
             this.txtUsuario.TabIndex = 8;
+            this.txtUsuario.Text = "admin";
             // 
             // txtPassword
             // 
@@ -102,6 +103,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(283, 31);
             this.txtPassword.TabIndex = 9;
+            this.txtPassword.Text = "1234";
             // 
             // btnIngresar
             // 
@@ -129,6 +131,7 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.btnIngresar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Ferreteria.Properties.Resources.shutterstock_710141932baja;
