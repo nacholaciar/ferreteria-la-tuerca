@@ -1,13 +1,6 @@
 ﻿using ABMProveedor.ABD;
 using ABMProveedor.Entidades;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ABMProveedor
@@ -17,31 +10,6 @@ namespace ABMProveedor
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -95,7 +63,12 @@ namespace ABMProveedor
             // limpiar mask
             mskNroCasaP.Text = "";
             mksCodBarrioP.Text = "";
-           
+
+        }
+
+        private void btnLimpiarCamposP_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
     }
 }

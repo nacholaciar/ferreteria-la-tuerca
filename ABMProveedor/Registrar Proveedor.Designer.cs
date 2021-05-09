@@ -76,7 +76,6 @@ namespace ABMProveedor
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registrar Proveedor";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // txtTelefonoP
             // 
@@ -113,7 +112,6 @@ namespace ABMProveedor
             this.label8.Size = new System.Drawing.Size(51, 18);
             this.label8.TabIndex = 16;
             this.label8.Text = "CUIT:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -208,7 +206,6 @@ namespace ABMProveedor
             this.label2.Size = new System.Drawing.Size(72, 18);
             this.label2.TabIndex = 2;
             this.label2.Text = "Apellido:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtNombreP
             // 
@@ -227,7 +224,6 @@ namespace ABMProveedor
             this.label1.Size = new System.Drawing.Size(73, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnRegistrarProveedorP
             // 
@@ -249,6 +245,7 @@ namespace ABMProveedor
             this.btnLimpiarCamposP.TabIndex = 2;
             this.btnLimpiarCamposP.Text = "Limpiar Campos";
             this.btnLimpiarCamposP.UseVisualStyleBackColor = true;
+            this.btnLimpiarCamposP.Click += new System.EventHandler(this.btnLimpiarCamposP_Click);
             // 
             // Form1
             // 
