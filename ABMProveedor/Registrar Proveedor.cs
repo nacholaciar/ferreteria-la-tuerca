@@ -14,7 +14,7 @@ namespace ABMProveedor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            CargarCodigoBarrio();
         }
 
         private Proveedor DatosProveedor()
@@ -30,8 +30,10 @@ namespace ABMProveedor
             p.CalleProveedor = txtCalleP.Text.Trim();
 
             // obtener mask
-            p.NumeroProveedor = int.Parse(mksCodBarrioP.Text.Trim());
-            p.CodBarrioProveedor = int.Parse(mskNroCasaP.Text.Trim());
+            p.NumeroProveedor = int.Parse(mskNroCasaP.Text.Trim());
+
+            // obtener combo
+            p.CodBarrioProveedor = (int)cbCodBarrioP.SelectedValue;
 
             return p;
         }
@@ -46,7 +48,12 @@ namespace ABMProveedor
             {
                 MessageBox.Show("Nuevo proveedor registrado!");
                 LimpiarCampos();
+                CargarCodigoBarrio();
 
+            }
+            else
+            {
+                MessageBox.Show("Error");
             }
         }
 
@@ -62,13 +69,22 @@ namespace ABMProveedor
 
             // limpiar mask
             mskNroCasaP.Text = "";
-            mksCodBarrioP.Text = "";
+            cbCodBarrioP.Text = "";
 
         }
 
         private void btnLimpiarCamposP_Click(object sender, EventArgs e)
         {
             LimpiarCampos();
+        }
+
+        private void CargarCodigoBarrio()
+        {
+            cbCodBarrioP.DataSource = ABDProveedor.ObtenerCodBarrio();
+            cbCodBarrioP.DisplayMember = "codBarrio"; //
+            cbCodBarrioP.ValueMember = "codBarrio";
+            cbCodBarrioP.SelectedIndex = -1;
+
         }
     }
 }

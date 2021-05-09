@@ -37,7 +37,6 @@ namespace ABMProveedor
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.mksCodBarrioP = new System.Windows.Forms.MaskedTextBox();
             this.txtRazonSocialP = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCalleP = new System.Windows.Forms.TextBox();
@@ -48,11 +47,13 @@ namespace ABMProveedor
             this.label1 = new System.Windows.Forms.Label();
             this.btnRegistrarProveedorP = new System.Windows.Forms.Button();
             this.btnLimpiarCamposP = new System.Windows.Forms.Button();
+            this.cbCodBarrioP = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbCodBarrioP);
             this.groupBox1.Controls.Add(this.txtTelefonoP);
             this.groupBox1.Controls.Add(this.txtCUITP);
             this.groupBox1.Controls.Add(this.mskNroCasaP);
@@ -60,7 +61,6 @@ namespace ABMProveedor
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.mksCodBarrioP);
             this.groupBox1.Controls.Add(this.txtRazonSocialP);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtCalleP);
@@ -142,16 +142,6 @@ namespace ABMProveedor
             this.label5.Size = new System.Drawing.Size(100, 18);
             this.label5.TabIndex = 9;
             this.label5.Text = "Cod. Barrio:";
-            // 
-            // mksCodBarrioP
-            // 
-            this.mksCodBarrioP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mksCodBarrioP.Location = new System.Drawing.Point(418, 100);
-            this.mksCodBarrioP.Mask = "99";
-            this.mksCodBarrioP.Name = "mksCodBarrioP";
-            this.mksCodBarrioP.Size = new System.Drawing.Size(149, 24);
-            this.mksCodBarrioP.TabIndex = 8;
-            this.mksCodBarrioP.ValidatingType = typeof(int);
             // 
             // txtRazonSocialP
             // 
@@ -247,6 +237,15 @@ namespace ABMProveedor
             this.btnLimpiarCamposP.UseVisualStyleBackColor = true;
             this.btnLimpiarCamposP.Click += new System.EventHandler(this.btnLimpiarCamposP_Click);
             // 
+            // cbCodBarrioP
+            // 
+            this.cbCodBarrioP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCodBarrioP.FormattingEnabled = true;
+            this.cbCodBarrioP.Location = new System.Drawing.Point(418, 99);
+            this.cbCodBarrioP.Name = "cbCodBarrioP";
+            this.cbCodBarrioP.Size = new System.Drawing.Size(149, 26);
+            this.cbCodBarrioP.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,7 +283,7 @@ namespace ABMProveedor
         private System.Windows.Forms.TextBox txtTelefonoP;
         private System.Windows.Forms.TextBox txtCUITP;
         private System.Windows.Forms.MaskedTextBox mskNroCasaP;
-        private System.Windows.Forms.MaskedTextBox mksCodBarrioP;
+        private System.Windows.Forms.ComboBox cbCodBarrioP;
     }
 }
 
