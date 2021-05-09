@@ -53,7 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos\AD_Barrio.cs" />
+    <Compile Include="AccesoADatos\AD_Cliente.cs" />
+    <Compile Include="AccesoADatos\AD_Localidad.cs" />
     <Compile Include="AccesoADatos\AD_Usuarios.cs" />
+    <Compile Include="BarrioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarrioForm.Designer.cs">
+      <DependentUpon>BarrioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinesLogic\AB_Varios.cs" />
     <Compile Include="CargaSistema.cs">
       <SubType>Form</SubType>
@@ -61,8 +70,23 @@
     <Compile Include="CargaSistema.Designer.cs">
       <DependentUpon>CargaSistema.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClienteForm.Designer.cs">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Barrio.cs" />
+    <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Localidad.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="LocalidadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalidadForm.Designer.cs">
+      <DependentUpon>LocalidadForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,8 +107,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BarrioForm.resx">
+      <DependentUpon>BarrioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CargaSistema.resx">
       <DependentUpon>CargaSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClienteForm.resx">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalidadForm.resx">
+      <DependentUpon>LocalidadForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

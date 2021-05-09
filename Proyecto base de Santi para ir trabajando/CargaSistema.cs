@@ -22,8 +22,8 @@ namespace Ferreteria
 
         private void CargarDatosUsuario(string usuario, string password)
         {
-            BusinesLogic.AB_Varios.CargarPerfil(usuario, password);
-            BusinesLogic.AB_Varios.CargarEmpleado(usuario, password);
+            //BusinesLogic.AB_Varios.CargarPerfil(usuario, password);
+            //BusinesLogic.AB_Varios.CargarEmpleado(usuario, password);
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -32,7 +32,7 @@ namespace Ferreteria
             if (barraCarga.Value == 100)
             {
                 timer1.Stop();
-                timer2.Start();
+                timer2.Start();     
             }
         }
         private void timer2_Tick(object sender, EventArgs e)
