@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Ferreteria.AccesoADatos;
+using Ferreteria.BusinesLogic;
 using Ferreteria.Entities;
 
 namespace Ferreteria
@@ -89,62 +90,62 @@ namespace Ferreteria
                         if (CmbTypeDoc.SelectedIndex != -1)
                         {
                             cli.TipoDniCliente = (int)CmbTypeDoc.SelectedValue;
-                            if (TxtNumberDoc.Text != "")
+                            if (TxtMail.Text != "")
                             {
-                                cli.DniCliente = int.Parse(TxtNumberDoc.Text.Trim());
-                                if (TxtAddress.Text != "")
+                                if (AB_Varios.Email_bien_escrito(TxtMail.Text))
                                 {
-                                    cli.Calle = TxtAddress.Text.Trim();
-                                    if (TxtNumberAddress.Text != "")
+                                    cli.Mail = TxtMail.Text;
+                                    if (TxtNumberDoc.Text != "")
                                     {
-                                        cli.NroCalle = int.Parse(TxtNumberAddress.Text);
-                                        if (CmbDistrict.SelectedIndex != -1)
+                                        cli.DniCliente = int.Parse(TxtNumberDoc.Text.Trim());
+                                        if (TxtAddress.Text != "")
                                         {
-                                            cli.CodBarrio = (int)CmbDistrict.SelectedValue;
-                                            if (TxtCuit.Text != "")
+                                            cli.Calle = TxtAddress.Text.Trim();
+                                            if (TxtNumberAddress.Text != "")
                                             {
-                                                cli.Cuit = TxtCuit.Text.ToString();
-                                                if (TxtMail.Text != "")
+                                                cli.NroCalle = int.Parse(TxtNumberAddress.Text);
+                                                if (CmbDistrict.SelectedIndex != -1)
                                                 {
-                                                    cli.Mail = (TxtMail.Text);
+                                                    cli.CodBarrio = (int)CmbDistrict.SelectedValue;
                                                     return cli;
                                                 }
                                                 else
                                                 {
-                                                    MessageBox.Show("Debe completar el Mail del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                                    TxtMail.Focus();
+                                                    MessageBox.Show("Debe seleccionar el barrio del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                                 }
-
-
                                             }
                                             else
                                             {
-                                                MessageBox.Show("Debe completar el CUIT del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                                TxtCuit.Focus();
+                                                MessageBox.Show("Debe completar el número del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                                TxtNumberAddress.Focus();
                                             }
                                         }
                                         else
                                         {
-                                            MessageBox.Show("Debe seleccionar el barrio del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                            MessageBox.Show("Debe completar la calle del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                            TxtAddress.Focus();
                                         }
                                     }
                                     else
                                     {
-                                        MessageBox.Show("Debe completar el número del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                        TxtNumberAddress.Focus();
+                                        MessageBox.Show("Debe completar el número de documento del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                        TxtNumberDoc.Focus();
                                     }
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Debe completar la calle del domicilio del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                    TxtAddress.Focus();
+                                    MessageBox.Show("Debe Escribir bien el mail", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    TxtMail.Focus();
                                 }
+
                             }
                             else
                             {
-                                MessageBox.Show("Debe completar el número de documento del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                TxtNumberDoc.Focus();
+                                MessageBox.Show("Debe completar el Mail del Cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                TxtMail.Focus();
                             }
+                            
+                           
                         }
                         else
                         {
