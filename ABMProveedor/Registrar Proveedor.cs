@@ -1,4 +1,5 @@
-﻿using ABMProveedor.Entidades;
+﻿using ABMProveedor.ABD;
+using ABMProveedor.Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -65,6 +66,36 @@ namespace ABMProveedor
             p.CodBarrioProveedor = int.Parse(mskNroCasaP.Text.Trim());
 
             return p;
+        }
+
+        private void btnRegistrarProveedorP_Click(object sender, EventArgs e)
+        {
+            Proveedor prov = DatosProveedor();
+
+            bool insert = ABDProveedor.AgregarProveedorBD(prov);
+
+            if (insert)
+            {
+                MessageBox.Show("Nuevo proveedor registrado!");
+                LimpiarCampos();
+
+            }
+        }
+
+        private void LimpiarCampos()
+        {
+            // limpiar texts
+            txtApellidoP.Text = "";
+            txtCalleP.Text = "";
+            txtCUITP.Text = "";
+            txtNombreP.Text = "";
+            txtRazonSocialP.Text = "";
+            txtTelefonoP.Text = "";
+
+            // limpiar mask
+            mskNroCasaP.Text = "";
+            mksCodBarrioP.Text = "";
+           
         }
     }
 }
