@@ -59,7 +59,7 @@ namespace Ferreteria.BusinesLogic
                 {
                     User.NameUser = nombreDeUsuario;
                     User.Password = password;
-                    Principal ventana = new Principal();
+                    CargaSistema ventana = new CargaSistema(nombreDeUsuario, password);
                     ventana.Show();
                 }
                 else
