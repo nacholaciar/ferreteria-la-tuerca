@@ -80,6 +80,7 @@
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\Localidad.cs" />
+    <Compile Include="Entities\Lote.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="LocalidadForm.cs">
       <SubType>Form</SubType>
@@ -92,6 +93,12 @@
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoteForm.Designer.cs">
+      <DependentUpon>LoteForm.cs</DependentUpon>
     </Compile>
     <Compile Include="PerfilForm.cs">
       <SubType>Form</SubType>
@@ -121,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoteForm.resx">
+      <DependentUpon>LoteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilForm.resx">
       <DependentUpon>PerfilForm.cs</DependentUpon>

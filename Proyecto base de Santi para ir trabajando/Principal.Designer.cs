@@ -90,7 +90,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 878);
+            this.panelMenu.Size = new System.Drawing.Size(220, 788);
             this.panelMenu.TabIndex = 13;
             // 
             // btnPerfil
@@ -719,7 +719,7 @@
             this.panelFooter.Controls.Add(this.pictureBox1);
             this.panelFooter.Controls.Add(this.lblSistema);
             this.panelFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelFooter.Location = new System.Drawing.Point(220, 835);
+            this.panelFooter.Location = new System.Drawing.Point(220, 745);
             this.panelFooter.Name = "panelFooter";
             this.panelFooter.Size = new System.Drawing.Size(1080, 43);
             this.panelFooter.TabIndex = 14;
@@ -778,7 +778,7 @@
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(220, 40);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1080, 795);
+            this.panelChildForm.Size = new System.Drawing.Size(1080, 705);
             this.panelChildForm.TabIndex = 16;
             // 
             // Principal
@@ -788,7 +788,7 @@
             this.BackColor = System.Drawing.Color.Tomato;
             this.BackgroundImage = global::Ferreteria.Properties.Resources.shutterstock_710141932baja;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1300, 878);
+            this.ClientSize = new System.Drawing.Size(1300, 788);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelFooter);
