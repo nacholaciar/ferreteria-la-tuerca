@@ -41,7 +41,6 @@ namespace ABMProveedor.ABD
             return resultado;
         }
 
-
         public static DataTable ObtenerCodBarrio()
         {
 
@@ -62,6 +61,29 @@ namespace ABMProveedor.ABD
             da.Fill(tabla);
 
             return tabla;
-        }  
+        }
+
+        public static DataTable ObtenerProveedores()
+        {
+
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD2"];
+            SqlCommand comando = new SqlCommand();
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            string consulta = "getProveedores";
+
+
+            comando.Parameters.Clear(); 
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.CommandText = consulta;
+            conexion.Open(); 
+            comando.Connection = conexion;
+
+            DataTable tabla = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(comando);
+            da.Fill(tabla);
+
+            return tabla;
+
+        } // [form AltaPersona] obtener personas desde la BD hacia la grilla
     }
 }
