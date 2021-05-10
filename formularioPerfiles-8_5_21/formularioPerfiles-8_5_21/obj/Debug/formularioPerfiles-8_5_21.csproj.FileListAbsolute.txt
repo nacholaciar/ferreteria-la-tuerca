@@ -8,3 +8,13 @@ E:\Projects\Visual Studio 2019\formularioPerfiles-8_5_21\formularioPerfiles-8_5_
 E:\Projects\Visual Studio 2019\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.csproj.CoreCompileInputs.cache
 E:\Projects\Visual Studio 2019\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.exe
 E:\Projects\Visual Studio 2019\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.pdb
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\bin\Debug\formularioPerfiles-8_5_21.exe.config
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\bin\Debug\formularioPerfiles-8_5_21.exe
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\bin\Debug\formularioPerfiles-8_5_21.pdb
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.csprojAssemblyReference.cache
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles_8_5_21.RegistrarPerfiles.resources
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles_8_5_21.Properties.Resources.resources
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.csproj.GenerateResource.cache
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.csproj.CoreCompileInputs.cache
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.exe
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\formularioPerfiles-8_5_21\formularioPerfiles-8_5_21\obj\Debug\formularioPerfiles-8_5_21.pdb

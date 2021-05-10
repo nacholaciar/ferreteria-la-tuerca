@@ -22,10 +22,10 @@ namespace Ferreteria.AccesoADatos
                 bool resultado = false;
                 SqlCommand cmd = new SqlCommand();
 
-                string consulta = "GetUsuario";
+                string consulta = "ValidarPassword";
 
                 cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("@nombreUsu", usuario);
+                cmd.Parameters.AddWithValue("@user", usuario);
                 cmd.Parameters.AddWithValue("@pass", password);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = consulta;

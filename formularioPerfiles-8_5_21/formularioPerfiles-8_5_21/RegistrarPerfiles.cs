@@ -144,7 +144,7 @@ namespace formularioPerfiles_8_5_21
                 {
                     int indiceElementoCmbModulo = CmbModulos.SelectedIndex;
                     AD_Varios.AsignarModulo(indiceElementoCmbModulo, TxtNombrePerfil.Text);
-                    DataTable GrdModulos = AD_Varios.CargarGrilla(TxtNombrePerfil.Text);
+                    GrdModulos.DataSource = AD_Varios.CargarGrilla(TxtNombrePerfil.Text);
                     //DataGridView GrdModulos = AD_Varios.CargarGrilla(TxtNombrePerfil.Text);
                     //Tomar datos de comboBox y agregarlo a DataGrid
                     //var temp = CmbModulos.SelectedIndex;
@@ -176,6 +176,11 @@ namespace formularioPerfiles_8_5_21
                 }
 
             }
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

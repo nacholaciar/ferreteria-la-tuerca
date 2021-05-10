@@ -125,6 +125,7 @@ namespace formularioPerfiles_8_5_21
             this.BtnCancelar.TabIndex = 8;
             this.BtnCancelar.Text = "Volver";
             this.BtnCancelar.UseVisualStyleBackColor = true;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // BtnRegistrar
             // 
