@@ -15,6 +15,7 @@ C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj
 C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.PerfilForm.resources
 C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.dll
 C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.xml
+<<<<<<< HEAD
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
@@ -35,3 +36,22 @@ C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir 
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.BarrioForm.resources
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LocalidadForm.resources
+=======
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.dll
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.xml
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Principal.resources
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
+C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
+>>>>>>> ignaciolaciar

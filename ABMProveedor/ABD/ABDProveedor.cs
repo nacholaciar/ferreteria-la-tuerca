@@ -13,15 +13,12 @@ namespace ABMProveedor.ABD
     {
         public static bool AgregarProveedorBD(Proveedor prov)
         {
-            // conexion base de datos con este form
             string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD2"]; // referencias > agregar referencia > System.Configuration (habilitar)
             SqlConnection conexion = new SqlConnection(cadenaConexion);
             bool resultado = false;
 
-
             SqlCommand comando = new SqlCommand();
-            // hacemos las consultas a la base de datos
-            string consulta = "INSERT INTO Proveedor (CUIT, razonSocial, nombre, apellido, telefono, calle, numero, codBarrio) VALUES(@cuit, @razonsocial, @nombre, @apellido, @telefono, @calle, @numero, @codbarrio)";
+            string consulta = "INSERT INTO Proveedor (CUIT, razonSocial, nombre, apellido, telefono, calle, numero, codBarrio) VALUES(@cuit, @razonsocial, @nombre, @apellido, @telefono, @calle, @numero, @codBarrio)";
 
             comando.Parameters.Clear();
             comando.Parameters.AddWithValue("@CUIT", prov.CUITProveedor);
@@ -31,18 +28,62 @@ namespace ABMProveedor.ABD
             comando.Parameters.AddWithValue("@telefono", prov.TelefonoProveedor);
             comando.Parameters.AddWithValue("@calle", prov.CalleProveedor);
             comando.Parameters.AddWithValue("@numero", prov.NumeroProveedor);
-            comando.Parameters.AddWithValue("@calle", prov.CalleProveedor);
-            comando.Parameters.AddWithValue("@codBarrio", prov.CalleProveedor);
+            comando.Parameters.AddWithValue("@codBarrio", prov.CodBarrioProveedor);
 
             comando.CommandType = CommandType.Text;
             comando.CommandText = consulta;
 
             conexion.Open();
             comando.Connection = conexion;
-            comando.ExecuteNonQuery(); // no quiero ningun resultado como respuesta, o sea estamos insertando
+            comando.ExecuteNonQuery();
 
             resultado = true;
             return resultado;
         }
+
+        public static DataTable ObtenerCodBarrio()
+        {
+
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD2"]; 
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            SqlCommand comando = new SqlCommand();
+
+            string consulta = "GetCodBarrio";
+            comando.Parameters.Clear(); 
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.CommandText = consulta;
+
+            conexion.Open(); 
+            comando.Connection = conexion;
+
+            DataTable tabla = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(comando);
+            da.Fill(tabla);
+
+            return tabla;
+        }
+
+        public static DataTable ObtenerProveedores()
+        {
+
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD2"];
+            SqlCommand comando = new SqlCommand();
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            string consulta = "getProveedores";
+
+
+            comando.Parameters.Clear(); 
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.CommandText = consulta;
+            conexion.Open(); 
+            comando.Connection = conexion;
+
+            DataTable tabla = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(comando);
+            da.Fill(tabla);
+
+            return tabla;
+
+        } // [form AltaPersona] obtener personas desde la BD hacia la grilla
     }
 }

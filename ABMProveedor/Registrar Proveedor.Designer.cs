@@ -30,6 +30,7 @@ namespace ABMProveedor
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbCodBarrioP = new System.Windows.Forms.ComboBox();
             this.txtTelefonoP = new System.Windows.Forms.TextBox();
             this.txtCUITP = new System.Windows.Forms.TextBox();
             this.mskNroCasaP = new System.Windows.Forms.MaskedTextBox();
@@ -37,7 +38,6 @@ namespace ABMProveedor
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.mksCodBarrioP = new System.Windows.Forms.MaskedTextBox();
             this.txtRazonSocialP = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCalleP = new System.Windows.Forms.TextBox();
@@ -48,11 +48,24 @@ namespace ABMProveedor
             this.label1 = new System.Windows.Forms.Label();
             this.btnRegistrarProveedorP = new System.Windows.Forms.Button();
             this.btnLimpiarCamposP = new System.Windows.Forms.Button();
+            this.dgProveedoresP = new System.Windows.Forms.DataGridView();
+            this.cuit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.razonsocial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codbarrio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.borrado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnModificarProveedorP = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgProveedoresP)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbCodBarrioP);
             this.groupBox1.Controls.Add(this.txtTelefonoP);
             this.groupBox1.Controls.Add(this.txtCUITP);
             this.groupBox1.Controls.Add(this.mskNroCasaP);
@@ -60,7 +73,6 @@ namespace ABMProveedor
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.mksCodBarrioP);
             this.groupBox1.Controls.Add(this.txtRazonSocialP);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtCalleP);
@@ -76,6 +88,15 @@ namespace ABMProveedor
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registrar Proveedor";
+            // 
+            // cbCodBarrioP
+            // 
+            this.cbCodBarrioP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCodBarrioP.FormattingEnabled = true;
+            this.cbCodBarrioP.Location = new System.Drawing.Point(418, 99);
+            this.cbCodBarrioP.Name = "cbCodBarrioP";
+            this.cbCodBarrioP.Size = new System.Drawing.Size(149, 26);
+            this.cbCodBarrioP.TabIndex = 20;
             // 
             // txtTelefonoP
             // 
@@ -142,16 +163,6 @@ namespace ABMProveedor
             this.label5.Size = new System.Drawing.Size(100, 18);
             this.label5.TabIndex = 9;
             this.label5.Text = "Cod. Barrio:";
-            // 
-            // mksCodBarrioP
-            // 
-            this.mksCodBarrioP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mksCodBarrioP.Location = new System.Drawing.Point(418, 100);
-            this.mksCodBarrioP.Mask = "99";
-            this.mksCodBarrioP.Name = "mksCodBarrioP";
-            this.mksCodBarrioP.Size = new System.Drawing.Size(149, 24);
-            this.mksCodBarrioP.TabIndex = 8;
-            this.mksCodBarrioP.ValidatingType = typeof(int);
             // 
             // txtRazonSocialP
             // 
@@ -247,11 +258,109 @@ namespace ABMProveedor
             this.btnLimpiarCamposP.UseVisualStyleBackColor = true;
             this.btnLimpiarCamposP.Click += new System.EventHandler(this.btnLimpiarCamposP_Click);
             // 
+            // dgProveedoresP
+            // 
+            this.dgProveedoresP.AllowUserToAddRows = false;
+            this.dgProveedoresP.AllowUserToDeleteRows = false;
+            this.dgProveedoresP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgProveedoresP.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cuit,
+            this.razonsocial,
+            this.nombre,
+            this.apellido,
+            this.telefono,
+            this.calle,
+            this.numero,
+            this.codbarrio,
+            this.borrado});
+            this.dgProveedoresP.Location = new System.Drawing.Point(42, 406);
+            this.dgProveedoresP.Name = "dgProveedoresP";
+            this.dgProveedoresP.ReadOnly = true;
+            this.dgProveedoresP.Size = new System.Drawing.Size(616, 150);
+            this.dgProveedoresP.TabIndex = 3;
+            this.dgProveedoresP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgProveedoresP_CellClick);
+            // 
+            // cuit
+            // 
+            this.cuit.DataPropertyName = "CUIT";
+            this.cuit.HeaderText = "CUIT";
+            this.cuit.Name = "cuit";
+            this.cuit.ReadOnly = true;
+            // 
+            // razonsocial
+            // 
+            this.razonsocial.DataPropertyName = "razonSocial";
+            this.razonsocial.HeaderText = "Razon Social";
+            this.razonsocial.Name = "razonsocial";
+            this.razonsocial.ReadOnly = true;
+            // 
+            // nombre
+            // 
+            this.nombre.DataPropertyName = "nombre";
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            // 
+            // apellido
+            // 
+            this.apellido.DataPropertyName = "apellido";
+            this.apellido.HeaderText = "Apellido";
+            this.apellido.Name = "apellido";
+            this.apellido.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.DataPropertyName = "telefono";
+            this.telefono.HeaderText = "Telefono";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // calle
+            // 
+            this.calle.DataPropertyName = "calle";
+            this.calle.HeaderText = "Calle";
+            this.calle.Name = "calle";
+            this.calle.ReadOnly = true;
+            // 
+            // numero
+            // 
+            this.numero.DataPropertyName = "numero";
+            this.numero.HeaderText = "Numero";
+            this.numero.Name = "numero";
+            this.numero.ReadOnly = true;
+            // 
+            // codbarrio
+            // 
+            this.codbarrio.DataPropertyName = "codBarrio";
+            this.codbarrio.HeaderText = "Cod. Barrio";
+            this.codbarrio.Name = "codbarrio";
+            this.codbarrio.ReadOnly = true;
+            // 
+            // borrado
+            // 
+            this.borrado.DataPropertyName = "borrado";
+            this.borrado.HeaderText = "Borrado";
+            this.borrado.Name = "borrado";
+            this.borrado.ReadOnly = true;
+            // 
+            // btnModificarProveedorP
+            // 
+            this.btnModificarProveedorP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarProveedorP.Location = new System.Drawing.Point(501, 573);
+            this.btnModificarProveedorP.Name = "btnModificarProveedorP";
+            this.btnModificarProveedorP.Size = new System.Drawing.Size(157, 49);
+            this.btnModificarProveedorP.TabIndex = 4;
+            this.btnModificarProveedorP.Text = "Modificar Proveedor";
+            this.btnModificarProveedorP.UseVisualStyleBackColor = true;
+            this.btnModificarProveedorP.Click += new System.EventHandler(this.btnModificarProveedorP_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 403);
+            this.ClientSize = new System.Drawing.Size(699, 647);
+            this.Controls.Add(this.btnModificarProveedorP);
+            this.Controls.Add(this.dgProveedoresP);
             this.Controls.Add(this.btnLimpiarCamposP);
             this.Controls.Add(this.btnRegistrarProveedorP);
             this.Controls.Add(this.groupBox1);
@@ -260,6 +369,7 @@ namespace ABMProveedor
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgProveedoresP)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -284,7 +394,18 @@ namespace ABMProveedor
         private System.Windows.Forms.TextBox txtTelefonoP;
         private System.Windows.Forms.TextBox txtCUITP;
         private System.Windows.Forms.MaskedTextBox mskNroCasaP;
-        private System.Windows.Forms.MaskedTextBox mksCodBarrioP;
+        private System.Windows.Forms.ComboBox cbCodBarrioP;
+        private System.Windows.Forms.DataGridView dgProveedoresP;
+        private System.Windows.Forms.Button btnModificarProveedorP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cuit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn razonsocial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
+        private System.Windows.Forms.DataGridViewTextBoxColumn calle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numero;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codbarrio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn borrado;
     }
 }
 
