@@ -17,6 +17,7 @@ namespace Ferreteria
         public LoteForm()
         {
             InitializeComponent();
+            CargarGrillaLotes();
         }
 
         private void LoteForm_Load(object sender, EventArgs e)
@@ -479,5 +480,7 @@ namespace Ferreteria
                 }
             }
         }
+
+       
     }
 }

@@ -29,10 +29,10 @@ namespace Ferreteria
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelPerfil = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -40,9 +40,7 @@ namespace Ferreteria
             this.txtCantidadArticulos = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCodigoProveedor = new System.Windows.Forms.TextBox();
-            this.txtFechaDeVencimiento = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtFechaDeIngreso = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAgregarLote = new FontAwesome.Sharp.IconButton();
             this.btnEliminarLote = new FontAwesome.Sharp.IconButton();
@@ -53,9 +51,6 @@ namespace Ferreteria
             this.btnActualizarLote = new FontAwesome.Sharp.IconButton();
             this.lblGrillaLote = new System.Windows.Forms.Label();
             this.grillaLotes = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.IdLote = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodArt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechadeIngreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +58,11 @@ namespace Ferreteria
             this.CantidadDeArticulosPorLote = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodProv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Borrado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtFechaDeVencimiento = new System.Windows.Forms.MaskedTextBox();
+            this.txtFechaDeIngreso = new System.Windows.Forms.MaskedTextBox();
             this.panelPerfil.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -96,13 +96,13 @@ namespace Ferreteria
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.BackColor = System.Drawing.Color.SeaShell;
+            this.panel2.Controls.Add(this.txtFechaDeIngreso);
+            this.panel2.Controls.Add(this.txtFechaDeVencimiento);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.txtCantidadArticulos);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.txtCodigoProveedor);
-            this.panel2.Controls.Add(this.txtFechaDeVencimiento);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.txtFechaDeIngreso);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btnAgregarLote);
             this.panel2.Controls.Add(this.btnEliminarLote);
@@ -131,7 +131,7 @@ namespace Ferreteria
             this.txtCantidadArticulos.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtCantidadArticulos.Enabled = false;
             this.txtCantidadArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidadArticulos.Location = new System.Drawing.Point(167, 254);
+            this.txtCantidadArticulos.Location = new System.Drawing.Point(172, 250);
             this.txtCantidadArticulos.Multiline = true;
             this.txtCantidadArticulos.Name = "txtCantidadArticulos";
             this.txtCantidadArticulos.Size = new System.Drawing.Size(98, 22);
@@ -153,20 +153,12 @@ namespace Ferreteria
             this.txtCodigoProveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtCodigoProveedor.Enabled = false;
             this.txtCodigoProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigoProveedor.Location = new System.Drawing.Point(167, 214);
+            this.txtCodigoProveedor.Location = new System.Drawing.Point(172, 210);
             this.txtCodigoProveedor.Multiline = true;
             this.txtCodigoProveedor.Name = "txtCodigoProveedor";
             this.txtCodigoProveedor.Size = new System.Drawing.Size(98, 22);
             this.txtCodigoProveedor.TabIndex = 93;
-            // 
-            // txtFechaDeVencimiento
-            // 
-            this.txtFechaDeVencimiento.Location = new System.Drawing.Point(170, 171);
-            this.txtFechaDeVencimiento.Mask = "00/00/0000";
-            this.txtFechaDeVencimiento.Name = "txtFechaDeVencimiento";
-            this.txtFechaDeVencimiento.Size = new System.Drawing.Size(100, 20);
-            this.txtFechaDeVencimiento.TabIndex = 91;
-            this.txtFechaDeVencimiento.ValidatingType = typeof(System.DateTime);
+
             // 
             // label3
             // 
@@ -178,15 +170,6 @@ namespace Ferreteria
             this.label3.Size = new System.Drawing.Size(161, 18);
             this.label3.TabIndex = 90;
             this.label3.Text = "Fecha De Vencimiento:";
-            // 
-            // txtFechaDeIngreso
-            // 
-            this.txtFechaDeIngreso.Location = new System.Drawing.Point(170, 132);
-            this.txtFechaDeIngreso.Mask = "00/00/0000";
-            this.txtFechaDeIngreso.Name = "txtFechaDeIngreso";
-            this.txtFechaDeIngreso.Size = new System.Drawing.Size(100, 20);
-            this.txtFechaDeIngreso.TabIndex = 89;
-            this.txtFechaDeIngreso.ValidatingType = typeof(System.DateTime);
             // 
             // label2
             // 
@@ -325,14 +308,14 @@ namespace Ferreteria
             this.grillaLotes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.grillaLotes.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.grillaLotes.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grillaLotes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grillaLotes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.grillaLotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grillaLotes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdLote,
@@ -342,60 +325,33 @@ namespace Ferreteria
             this.CantidadDeArticulosPorLote,
             this.CodProv,
             this.Borrado});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grillaLotes.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grillaLotes.DefaultCellStyle = dataGridViewCellStyle30;
             this.grillaLotes.Location = new System.Drawing.Point(439, 65);
             this.grillaLotes.Name = "grillaLotes";
             this.grillaLotes.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grillaLotes.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grillaLotes.RowHeadersDefaultCellStyle = dataGridViewCellStyle31;
             this.grillaLotes.RowHeadersVisible = false;
             this.grillaLotes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grillaLotes.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grillaLotes.RowsDefaultCellStyle = dataGridViewCellStyle32;
             this.grillaLotes.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.grillaLotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.grillaLotes.Size = new System.Drawing.Size(534, 404);
             this.grillaLotes.TabIndex = 5;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(10, 490);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(980, 10);
-            this.panel3.TabIndex = 1;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(990, 20);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 480);
-            this.panel4.TabIndex = 1;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 20);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 480);
-            this.panel5.TabIndex = 1;
             // 
             // IdLote
             // 
@@ -411,7 +367,7 @@ namespace Ferreteria
             this.CodArt.HeaderText = "Cod. Art.";
             this.CodArt.Name = "CodArt";
             this.CodArt.ReadOnly = true;
-            this.CodArt.Width = 130;
+            this.CodArt.Width = 86;
             // 
             // FechadeIngreso
             // 
@@ -452,6 +408,58 @@ namespace Ferreteria
             this.Borrado.Name = "Borrado";
             this.Borrado.ReadOnly = true;
             this.Borrado.Width = 120;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(10, 490);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(980, 10);
+            this.panel3.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(990, 20);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 480);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel5.Location = new System.Drawing.Point(0, 20);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 480);
+            this.panel5.TabIndex = 1;
+            // 
+            // txtFechaDeVencimiento
+            // 
+            this.txtFechaDeVencimiento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtFechaDeVencimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFechaDeVencimiento.Location = new System.Drawing.Point(170, 171);
+            this.txtFechaDeVencimiento.Mask = "00/00/0000";
+            this.txtFechaDeVencimiento.Name = "txtFechaDeVencimiento";
+            this.txtFechaDeVencimiento.Size = new System.Drawing.Size(100, 26);
+            this.txtFechaDeVencimiento.TabIndex = 97;
+            this.txtFechaDeVencimiento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFechaDeVencimiento.ValidatingType = typeof(System.DateTime);
+
+            // 
+            // txtFechaDeIngreso
+            // 
+            this.txtFechaDeIngreso.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtFechaDeIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFechaDeIngreso.Location = new System.Drawing.Point(170, 132);
+            this.txtFechaDeIngreso.Mask = "00/00/0000";
+            this.txtFechaDeIngreso.Name = "txtFechaDeIngreso";
+            this.txtFechaDeIngreso.Size = new System.Drawing.Size(100, 26);
+            this.txtFechaDeIngreso.TabIndex = 98;
+            this.txtFechaDeIngreso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFechaDeIngreso.ValidatingType = typeof(System.DateTime);
             // 
             // LoteForm
             // 
@@ -500,9 +508,7 @@ namespace Ferreteria
         private FontAwesome.Sharp.IconButton btnAgregarLote;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtCodigoProveedor;
-        private System.Windows.Forms.MaskedTextBox txtFechaDeVencimiento;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox txtFechaDeIngreso;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtCantidadArticulos;
@@ -513,5 +519,7 @@ namespace Ferreteria
         private System.Windows.Forms.DataGridViewTextBoxColumn CantidadDeArticulosPorLote;
         private System.Windows.Forms.DataGridViewTextBoxColumn CodProv;
         private System.Windows.Forms.DataGridViewTextBoxColumn Borrado;
+        private System.Windows.Forms.MaskedTextBox txtFechaDeIngreso;
+        private System.Windows.Forms.MaskedTextBox txtFechaDeVencimiento;
     }
 }

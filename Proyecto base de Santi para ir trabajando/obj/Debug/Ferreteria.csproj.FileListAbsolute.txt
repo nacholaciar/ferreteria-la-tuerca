@@ -56,3 +56,4 @@ C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de S
 C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
 C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
 C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoteForm.resources
+C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoteForm.resources
