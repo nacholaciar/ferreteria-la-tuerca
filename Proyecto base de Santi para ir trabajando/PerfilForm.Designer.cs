@@ -116,7 +116,7 @@
             this.lblUsuario.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(5, 263);
+            this.lblUsuario.Location = new System.Drawing.Point(49, 267);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(88, 24);
             this.lblUsuario.TabIndex = 89;
@@ -133,7 +133,7 @@
             this.BtnConsultar.IconColor = System.Drawing.Color.Black;
             this.BtnConsultar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnConsultar.IconSize = 35;
-            this.BtnConsultar.Location = new System.Drawing.Point(283, 191);
+            this.BtnConsultar.Location = new System.Drawing.Point(143, 191);
             this.BtnConsultar.Name = "BtnConsultar";
             this.BtnConsultar.Size = new System.Drawing.Size(99, 41);
             this.BtnConsultar.TabIndex = 87;
@@ -154,9 +154,9 @@
             this.BtnDelete.IconColor = System.Drawing.Color.Black;
             this.BtnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnDelete.IconSize = 35;
-            this.BtnDelete.Location = new System.Drawing.Point(155, 318);
+            this.BtnDelete.Location = new System.Drawing.Point(143, 315);
             this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(234, 41);
+            this.BtnDelete.Size = new System.Drawing.Size(99, 41);
             this.BtnDelete.TabIndex = 81;
             this.BtnDelete.Text = "Limpiar Seleccion";
             this.BtnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -178,7 +178,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(5, 161);
+            this.label1.Location = new System.Drawing.Point(46, 161);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 24);
             this.label1.TabIndex = 31;
@@ -219,9 +219,9 @@
             this.BtnUpdate.IconColor = System.Drawing.Color.Black;
             this.BtnUpdate.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnUpdate.IconSize = 35;
-            this.BtnUpdate.Location = new System.Drawing.Point(391, 257);
+            this.BtnUpdate.Location = new System.Drawing.Point(388, 257);
             this.BtnUpdate.Name = "BtnUpdate";
-            this.BtnUpdate.Size = new System.Drawing.Size(99, 41);
+            this.BtnUpdate.Size = new System.Drawing.Size(99, 34);
             this.BtnUpdate.TabIndex = 82;
             this.BtnUpdate.Text = "Asignar";
             this.BtnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,9 +261,9 @@
             this.Guardar.IconColor = System.Drawing.Color.Black;
             this.Guardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Guardar.IconSize = 35;
-            this.Guardar.Location = new System.Drawing.Point(388, 153);
+            this.Guardar.Location = new System.Drawing.Point(388, 150);
             this.Guardar.Name = "Guardar";
-            this.Guardar.Size = new System.Drawing.Size(99, 41);
+            this.Guardar.Size = new System.Drawing.Size(99, 35);
             this.Guardar.TabIndex = 80;
             this.Guardar.Text = "Registrar";
             this.Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

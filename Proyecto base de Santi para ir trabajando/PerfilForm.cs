@@ -10,6 +10,7 @@ namespace Ferreteria
         public PerfilForm()
         {
             InitializeComponent();
+            CargarModulos();
 
         }
         private void CargarModulos()
