@@ -43,10 +43,7 @@ namespace Ferreteria
                 hideSubMenu();
                 subMenu.Visible = true;
             }
-            else
-            {
-                subMenu.Visible = false;
-            }
+            
         }
 
         #region Perfil
@@ -55,7 +52,7 @@ namespace Ferreteria
             //..
             //Your code
             //..
-            openChildForm(new PerfilForm());
+            //openChildForm(new PerfilForm());
             hideSubMenu();
         }
         #endregion
@@ -68,9 +65,7 @@ namespace Ferreteria
 
         private void btnArticulos_Click(object sender, EventArgs e)
         {
-            //..
-            //Your code
-            //..
+            
             hideSubMenu();
         }
 
@@ -84,9 +79,7 @@ namespace Ferreteria
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            //..
-            //Your code
-            //..
+            openChildForm(new ClienteForm());
             hideSubMenu();
         }
 
@@ -108,9 +101,9 @@ namespace Ferreteria
 
         private void btnLotes_Click(object sender, EventArgs e)
         {
-            //..
-            //Your code
-            //..
+            //LoteForm ventana = new LoteForm();
+
+            openChildForm(new LoteForm());
             hideSubMenu();
         }
 
@@ -143,6 +136,7 @@ namespace Ferreteria
             //..
             //Your code
             //..
+            openChildForm(new LocalidadForm());
             hideSubMenu();
         }
 
@@ -151,6 +145,7 @@ namespace Ferreteria
             //..
             //Your code
             //..
+            openChildForm(new BarrioForm());
             hideSubMenu();
         }
         #endregion

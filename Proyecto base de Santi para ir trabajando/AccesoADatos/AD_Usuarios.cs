@@ -22,10 +22,10 @@ namespace Ferreteria.AccesoADatos
                 bool resultado = false;
                 SqlCommand cmd = new SqlCommand();
 
-                string consulta = "GetUsuario";
+                string consulta = "ValidarPassword";
 
                 cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("@nombreUsu", usuario);
+                cmd.Parameters.AddWithValue("@user", usuario);
                 cmd.Parameters.AddWithValue("@pass", password);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = consulta;
@@ -50,7 +50,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -85,7 +85,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -121,7 +121,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -195,7 +195,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -236,7 +236,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -278,7 +278,7 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
@@ -318,13 +318,13 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
                 cn.Close();
             }
-            return nombre;
+            
         }
 
         public static string ObtenerApellido(int empleado)
@@ -359,13 +359,13 @@ namespace Ferreteria.AccesoADatos
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             finally
             {
                 cn.Close();
             }
-            return apellido;
+            
         }
 
         public static Tuple<string, string, string, int, string, string> ObtenerDatosEmpleado(int empleado)

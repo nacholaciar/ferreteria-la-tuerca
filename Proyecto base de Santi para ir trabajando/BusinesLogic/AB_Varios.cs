@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -44,7 +45,8 @@ namespace Ferreteria.BusinesLogic
             }
             catch (Exception)
             {
-                MessageBox.Show("Error al consultar Empleado");
+                MessageBox.Show("Error al consultar Empleado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
         }
@@ -59,14 +61,14 @@ namespace Ferreteria.BusinesLogic
                     User.NameUser = nombreDeUsuario;
                     User.Password = password;
                     CargaSistema ventana = new CargaSistema(nombreDeUsuario, password);
-                    ventana.ShowDialog();
+                    ventana.Show();
                 }
                 else
                 {
-                    MessageBox.Show("Usuario inexistente...");
+                    MessageBox.Show("Usuario inexistente...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 MessageBox.Show("Error al consultar usuario");
             }
@@ -79,7 +81,7 @@ namespace Ferreteria.BusinesLogic
                 permisos = AccesoADatos.AD_Usuarios.ObtenerListadoPermisos(User.Perfil);
                 return permisos;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 MessageBox.Show("Error al listar permisos");
             }
@@ -94,7 +96,7 @@ namespace Ferreteria.BusinesLogic
                 perfil = AccesoADatos.AD_Usuarios.ObtenerNombrePerfil(User.Perfil);
                 return perfil;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Error al Obtener perfil");
             }
@@ -111,6 +113,26 @@ namespace Ferreteria.BusinesLogic
             //Empleado.FechaNacimiento = empleadoAuxiliar[4];
             //Empleado.Telefono = empleadoAuxiliar;
 
+        }
+        public static Boolean Email_bien_escrito(String email)
+        {
+            String expresion;
+            expresion = "\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
+            if (Regex.IsMatch(email, expresion))
+            {
+                if (Regex.Replace(email, expresion, String.Empty).Length == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
