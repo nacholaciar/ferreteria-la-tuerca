@@ -84,6 +84,6 @@ namespace ABMProveedor.ABD
 
             return tabla;
 
-        } // [form AltaPersona] obtener personas desde la BD hacia la grilla
+        }
     }
 }

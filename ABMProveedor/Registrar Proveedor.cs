@@ -95,7 +95,7 @@ namespace ABMProveedor
         {
             dgProveedoresP.DataSource = ABDProveedor.ObtenerProveedores();
 
-        } 
+        }
 
         private void CargarDatos(Proveedor prov)
         {
@@ -112,7 +112,7 @@ namespace ABMProveedor
 
             //msk
             mskNroCasaP.Text = prov.NumeroProveedor.ToString();
-        
+
         }
 
         private Proveedor ObtenerProveedor(string cuit)
@@ -144,7 +144,6 @@ namespace ABMProveedor
                 prov.CalleProveedor = dr["calle"].ToString();
                 prov.NumeroProveedor = int.Parse(dr["numero"].ToString());
                 prov.CodBarrioProveedor = int.Parse(dr["codBarrio"].ToString());
-                //prov.x = int.Parse(dr["borrado"].ToString());
             }
 
             return prov;
@@ -152,7 +151,7 @@ namespace ABMProveedor
 
         private void dgProveedoresP_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            int indice = e.RowIndex; // saber en que indice estoy parado
+            int indice = e.RowIndex;
             btnModificarProveedorP.Enabled = true;
             btnRegistrarProveedorP.Enabled = false;
             DataGridViewRow filaSeleccionada = dgProveedoresP.Rows[indice];
@@ -164,7 +163,6 @@ namespace ABMProveedor
 
         private bool UpdateProveedor(Proveedor prov)
         {
-            // conexion base de datos con este form
             string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD2"];
             SqlConnection conexion = new SqlConnection(cadenaConexion);
             bool resu = false;
