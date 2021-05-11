@@ -56,7 +56,10 @@
     <Compile Include="AccesoADatos\AD_Barrio.cs" />
     <Compile Include="AccesoADatos\AD_Cliente.cs" />
     <Compile Include="AccesoADatos\AD_Localidad.cs" />
+<<<<<<< HEAD
     <Compile Include="AccesoADatos\AD_Lote.cs" />
+=======
+>>>>>>> main
     <Compile Include="AccesoADatos\AD_Usuarios.cs" />
     <Compile Include="BarrioForm.cs">
       <SubType>Form</SubType>
@@ -81,7 +84,10 @@
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\Localidad.cs" />
+<<<<<<< HEAD
     <Compile Include="Entities\Lote.cs" />
+=======
+>>>>>>> main
     <Compile Include="Entities\User.cs" />
     <Compile Include="LocalidadForm.cs">
       <SubType>Form</SubType>
