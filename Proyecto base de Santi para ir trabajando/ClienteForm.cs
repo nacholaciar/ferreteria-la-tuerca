@@ -401,14 +401,7 @@ namespace Ferreteria
             this.Close();
         }
 
-<<<<<<< HEAD
-        private void panel6_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-=======
         
->>>>>>> main
     }
  }
 

@@ -16,9 +16,6 @@ C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.Perfil
 C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.dll
 C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.xml
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
@@ -39,51 +36,6 @@ C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir 
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.BarrioForm.resources
 C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LocalidadForm.resources
-<<<<<<< HEAD
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.dll
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.xml
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csprojAssemblyReference.cache
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.BarrioForm.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.CargaSistema.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.ClienteForm.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LocalidadForm.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoginForm.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.PerfilForm.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Principal.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Properties.Resources.resources
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.GenerateResource.cache
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CopyComplete
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
-C:\Users\usuario.LAPTOP-8NE9T5CM\Desktop\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoteForm.resources
-C:\Users\a\Documents\GitHub\ferreteria-la-tuerca\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoteForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.dll
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.xml
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csprojAssemblyReference.cache
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.BarrioForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.CargaSistema.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.ClienteForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LocalidadForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoginForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoteForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.PerfilForm.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Principal.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Properties.Resources.resources
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.GenerateResource.cache
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CopyComplete
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
-C:\Users\suco\Documents\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\ferreteria-la-tuerca-ignacio-Mongi-ABMLote\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
-=======
 =======
 C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
 C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
@@ -103,4 +55,3 @@ C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajand
 C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
 C:\Users\suco\Documents\repos\repo Nico\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
 >>>>>>> ignaciolaciar
->>>>>>> main

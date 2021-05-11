@@ -101,9 +101,9 @@ namespace Ferreteria
 
         private void btnLotes_Click(object sender, EventArgs e)
         {
-            //LoteForm ventana = new LoteForm();
-
-            openChildForm(new LoteForm());
+            //..
+            //Your code
+            //..
             hideSubMenu();
         }
 
