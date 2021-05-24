@@ -1,0 +1,157 @@
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\Ferreteria.exe.config
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\FontAwesome.Sharp.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.Principal.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.UsuarioForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Release\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\Ferreteria.exe.config
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\FontAwesome.Sharp.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.csprojAssemblyReference.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.Principal.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.UsuarioForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Release\Ferreteria.pdb
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\Ferreteria.exe.config
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\Ferreteria.exe
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\Ferreteria.pdb
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\FontAwesome.Sharp.dll
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_MarcaForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_PerfilForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_BarrioForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.AdministradorEmpleado.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_ClienteForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_LoteForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.Principal.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.exe
+C:\Users\USER\Desktop\TP PAVI 2021\ABM Usuarios\obj\Release\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe.config
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\FontAwesome.Sharp.dll
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.dll
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.xml
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csprojAssemblyReference.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_Empleado.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_MarcaForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_BarrioForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AdministradorEmpleado.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ClienteForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LoteForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Principal.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\TP Integrador\VERSIONES\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe.config
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\FontAwesome.Sharp.dll
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.dll
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.xml
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csprojAssemblyReference.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_Empleado.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_MarcaForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_BarrioForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AdministradorEmpleado.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ClienteForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Entrega.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LoteForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Principal.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\MATERIAS 2021\PAV\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.pdb
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe.config
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.exe
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\Ferreteria.pdb
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\FontAwesome.Sharp.dll
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.dll
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Release\System.ValueTuple.xml
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csprojAssemblyReference.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_Empleado.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_MarcaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_PerfilForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_BarrioForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AdministradorEmpleado.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.CargaSistema.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_ClienteForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ConsultarEntregaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Entrega.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.LoginForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_LoteForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.PerfilForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Principal.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.Properties.Resources.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.GenerateResource.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.csproj.CopyComplete
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.exe
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Release\Ferreteria.pdb

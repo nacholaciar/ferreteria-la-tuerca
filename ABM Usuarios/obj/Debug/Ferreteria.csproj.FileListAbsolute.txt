@@ -1,0 +1,159 @@
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.exe.config
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.Principal.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.dll
+C:\Users\santi\Desktop\Pruebas Ferreteria\Ferreteria\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe.config
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Principal.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.UsuarioForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ferreteria-la-tuerca-main\Proyecto base de Santi para ir trabajando\obj\Debug\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\Ferreteria.exe.config
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\Ferreteria.pdb
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.Principal.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.UsuarioForm.resources
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.exe
+C:\Users\USER\Documents\1- Facultad\2021\PAV I\TPI\ABM Usuarios\obj\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\Ferreteria.exe.config
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\System.ValueTuple.dll
+C:\Users\santi\Desktop\ABM Usuarios\bin\Debug\System.ValueTuple.xml
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.Principal.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.exe
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.pdb
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\Ferreteria.exe.config
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\Ferreteria.exe
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\Ferreteria.pdb
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\ABM Usuarios\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.Principal.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.UsuarioForm.resources
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.exe
+C:\Users\USER\Desktop\ABM Usuarios\obj\Debug\Ferreteria.pdb
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_PerfilForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_LoteForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_BarrioForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_ClienteForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\santi\Desktop\ABM Usuarios\obj\Debug\Ferreteria.ABM_MarcaForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_MarcaForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_BarrioForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.AdministradorEmpleado.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_ClienteForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_LoteForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.Principal.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\Ferreteria.exe.config
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\Ferreteria.exe
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\Ferreteria.pdb
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\System.ValueTuple.dll
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\bin\Debug\System.ValueTuple.xml
+C:\Users\carol\OneDrive\Documentos\ABM Usuarios\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\Ferreteria.exe.config
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\Ferreteria.exe
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\Ferreteria.pdb
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\System.ValueTuple.dll
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\bin\Debug\System.ValueTuple.xml
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.csprojAssemblyReference.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_ArticuloForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_CategoriaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_Empleado.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_MarcaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_PerfilForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_ProveedorForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_BarrioForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.AdministradorEmpleado.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.CargaSistema.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_LocalidadForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_ClienteForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.AB_EmpleadoForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ConsultarEntregaForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.Entrega.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.LoginForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_LoteForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.PerfilForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.Principal.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.Properties.Resources.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.ABM_UsuarioForm.resources
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.csproj.GenerateResource.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.csproj.CopyComplete
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.exe
+C:\Users\a\Desktop\ver\PAV I-3K7-GrupoN3-Ferretería-LaTuerca\ABM Usuarios\obj\Debug\Ferreteria.pdb

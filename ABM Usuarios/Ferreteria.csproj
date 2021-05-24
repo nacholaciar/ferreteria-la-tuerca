@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AEAEEF7-823A-4D76-A1B1-1B8DD54B7DFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ferreteria</RootNamespace>
+    <AssemblyName>Ferreteria</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.5.15.3\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABM_ArticuloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_ArticuloForm.Designer.cs">
+      <DependentUpon>ABM_ArticuloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_CategoriaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_CategoriaForm.designer.cs">
+      <DependentUpon>ABM_CategoriaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_Empleado.Designer.cs">
+      <DependentUpon>ABM_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_MarcaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_MarcaForm.designer.cs">
+      <DependentUpon>ABM_MarcaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_PerfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_PerfilForm.Designer.cs">
+      <DependentUpon>ABM_PerfilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_ProveedorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_ProveedorForm.Designer.cs">
+      <DependentUpon>ABM_ProveedorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccesoADatos\AD_Articulo.cs" />
+    <Compile Include="AccesoADatos\AD_Barrio.cs" />
+    <Compile Include="AccesoADatos\AD_Categorias.cs" />
+    <Compile Include="AccesoADatos\AD_Cliente.cs" />
+    <Compile Include="AccesoADatos\AD_Empleados.cs" />
+    <Compile Include="AccesoADatos\AD_Entrega.cs" />
+    <Compile Include="AccesoADatos\AD_Factura.cs" />
+    <Compile Include="AccesoADatos\AD_Localidad.cs" />
+    <Compile Include="AccesoADatos\AD_Lote.cs" />
+    <Compile Include="AccesoADatos\AD_Marca.cs" />
+    <Compile Include="AccesoADatos\AD_Perfiles.cs" />
+    <Compile Include="AccesoADatos\AD_Proveedor.cs" />
+    <Compile Include="AccesoADatos\AD_Usuarios.cs" />
+    <Compile Include="AccesoADatos\AD_Varios.cs" />
+    <Compile Include="ABM_BarrioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_BarrioForm.Designer.cs">
+      <DependentUpon>ABM_BarrioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministradorEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministradorEmpleado.designer.cs">
+      <DependentUpon>AdministradorEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinesLogic\ArticuloService.cs" />
+    <Compile Include="BusinesLogic\BarrioService.cs" />
+    <Compile Include="BusinesLogic\ClienteService.cs" />
+    <Compile Include="BusinesLogic\EmpleadoService.cs" />
+    <Compile Include="BusinesLogic\EntregaServices.cs" />
+    <Compile Include="BusinesLogic\FacturaService.cs" />
+    <Compile Include="BusinesLogic\LocalidadService.cs" />
+    <Compile Include="BusinesLogic\LoteService.cs" />
+    <Compile Include="BusinesLogic\PerfilService.cs" />
+    <Compile Include="BusinesLogic\ProveedorService.cs" />
+    <Compile Include="BusinesLogic\SesionService.cs" />
+    <Compile Include="BusinesLogic\UsuarioService.cs" />
+    <Compile Include="CargaSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargaSistema.Designer.cs">
+      <DependentUpon>CargaSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_ClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_ClienteForm.Designer.cs">
+      <DependentUpon>ABM_ClienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_EmpleadoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_EmpleadoForm.designer.cs">
+      <DependentUpon>ABM_EmpleadoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarEntregaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarEntregaForm.Designer.cs">
+      <DependentUpon>ConsultarEntregaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Articulo.cs" />
+    <Compile Include="Entities\Barrio.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Entrega.cs" />
+    <Compile Include="Entities\Localidad.cs" />
+    <Compile Include="Entities\Lote.cs" />
+    <Compile Include="Entities\Perfil.cs" />
+    <Compile Include="Entities\Proveedor.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="ABM_LocalidadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_LocalidadForm.Designer.cs">
+      <DependentUpon>ABM_LocalidadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrega.Designer.cs">
+      <DependentUpon>Entrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_LoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_LoteForm.Designer.cs">
+      <DependentUpon>ABM_LoteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerfilForm.designer.cs">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ABM_UsuarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_UsuarioForm.Designer.cs">
+      <DependentUpon>ABM_UsuarioForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ABM_ArticuloForm.resx">
+      <DependentUpon>ABM_ArticuloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_CategoriaForm.resx">
+      <DependentUpon>ABM_CategoriaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_Empleado.resx">
+      <DependentUpon>ABM_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_MarcaForm.resx">
+      <DependentUpon>ABM_MarcaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_PerfilForm.resx">
+      <DependentUpon>ABM_PerfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_ProveedorForm.resx">
+      <DependentUpon>ABM_ProveedorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_BarrioForm.resx">
+      <DependentUpon>ABM_BarrioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministradorEmpleado.resx">
+      <DependentUpon>AdministradorEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargaSistema.resx">
+      <DependentUpon>CargaSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_LocalidadForm.resx">
+      <DependentUpon>ABM_LocalidadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_ClienteForm.resx">
+      <DependentUpon>ABM_ClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_EmpleadoForm.resx">
+      <DependentUpon>ABM_EmpleadoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarEntregaForm.resx">
+      <DependentUpon>ConsultarEntregaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrega.resx">
+      <DependentUpon>Entrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_LoteForm.resx">
+      <DependentUpon>ABM_LoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerfilForm.resx">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ABM_UsuarioForm.resx">
+      <DependentUpon>ABM_UsuarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_710141932baja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_wrench_416405.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilidad\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
