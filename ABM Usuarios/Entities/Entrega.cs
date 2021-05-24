@@ -15,7 +15,7 @@ namespace Ferreteria.Entities
         public string EmpleadoACargo { get; set; }
         public DateTime FechaEntrega { get; set; }
         public DateTime FechaEntregaReal { get; set; }
-        public string EstadoEntrega { get; set; }
+        public int EstadoEntrega { get; set; }
         public int DniCliente { get; set; }
         public string DomicilioCliente { get; set; }
 

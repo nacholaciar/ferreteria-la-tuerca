@@ -186,6 +186,12 @@
     <Compile Include="ABM_LoteForm.Designer.cs">
       <DependentUpon>ABM_LoteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarEntrega.Designer.cs">
+      <DependentUpon>ModificarEntrega.cs</DependentUpon>
+    </Compile>
     <Compile Include="PerfilForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ABM_LoteForm.resx">
       <DependentUpon>ABM_LoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarEntrega.resx">
+      <DependentUpon>ModificarEntrega.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilForm.resx">
       <DependentUpon>PerfilForm.cs</DependentUpon>

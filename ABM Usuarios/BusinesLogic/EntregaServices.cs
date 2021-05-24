@@ -12,7 +12,7 @@ namespace Ferreteria.BusinesLogic
 
     class EntregaService
     {
-        public static DataTable CargarEntregas(int numero = 0)
+        public static DataTable CargarEntregas(int numero = 0,int tipofactura = 0)
         {
             DataTable entregas = new DataTable();
             if (numero == 0)
@@ -21,7 +21,7 @@ namespace Ferreteria.BusinesLogic
             }
             else
             {
-                entregas = AD_Entrega.ObtenerEntregas(numero);
+                entregas = AD_Entrega.ObtenerEntregas(numero,tipofactura);
 
             }
             return entregas;
@@ -58,7 +58,7 @@ namespace Ferreteria.BusinesLogic
                     Entrega.EmpleadoACargo = tabla.Rows[0][5].ToString();
                     Entrega.DniCliente = (int)tabla.Rows[0][6];
                     Entrega.DomicilioCliente = tabla.Rows[0][7].ToString();
-                    Entrega.EstadoEntrega = tabla.Rows[0][8].ToString();
+                    Entrega.EstadoEntrega = (int)tabla.Rows[0][8];
 
                 }
 
@@ -72,7 +72,7 @@ namespace Ferreteria.BusinesLogic
         public static bool ConsultarEntrega(int factura, int tipoFactura)
         {
             bool resultado = false;
-            if (AD_Entrega.BuscarEntrega(factura, tipoFactura) != -1)
+            if (AD_Entrega.ObtenerEntregas(factura, tipoFactura).Rows.Count > 0 )
             {
                 resultado = true;
             }
@@ -93,5 +93,6 @@ namespace Ferreteria.BusinesLogic
             }
             return resultado;
         }
+        
     }
 }

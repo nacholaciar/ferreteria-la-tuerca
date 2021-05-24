@@ -11,7 +11,7 @@ namespace Ferreteria.AccesoADatos
     class AD_Entrega
     {
 
-        public static DataTable ObtenerEntregas(int numero = -1)
+        public static DataTable ObtenerEntregas(int numero = -1,int tipoFactura = -1)
         {
             string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
             SqlConnection cn = new SqlConnection(cadenaConexion);
@@ -19,16 +19,17 @@ namespace Ferreteria.AccesoADatos
             {
                 SqlCommand cmd = new SqlCommand();
                 string consulta = "GetEntregas";
-                if (numero == -1)
+                if (numero == -1 && tipoFactura == -1)
                 {
                     consulta = "GetEntregas";
                     cmd.Parameters.Clear();
                 }
                 else
                 {
-                    consulta = "GetEntregasXNumero";
+                    consulta = "GetEntregasXNumeroXTipo";
                     cmd.Parameters.Clear();
-                    cmd.Parameters.AddWithValue("@numero", numero);
+                    cmd.Parameters.AddWithValue("@nroFactura", numero);
+                    cmd.Parameters.AddWithValue("@tipoFactura", tipoFactura);
                 }
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = consulta;
@@ -41,7 +42,7 @@ namespace Ferreteria.AccesoADatos
                 da.Fill(tabla);
                 return tabla;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -58,7 +59,7 @@ namespace Ferreteria.AccesoADatos
             try
             {
                 SqlCommand cmd = new SqlCommand();
-                string consulta = "InsertNuevoEntrega";
+                string consulta = "InsertNuevaEntrega";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@nroFactura", entrega.NroFactura);
                 cmd.Parameters.AddWithValue("@tipoFactura", entrega.tipoFactura);
@@ -73,7 +74,7 @@ namespace Ferreteria.AccesoADatos
                 cmd.ExecuteNonQuery();
                 resultado = true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;
@@ -118,29 +119,26 @@ namespace Ferreteria.AccesoADatos
                 cn.Close();
             }
         }
-        
-        public static int BuscarEntrega(int numero, int tipoFactura)
+        public static DataTable ObtenerEstadosEntrega()
         {
             string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
             SqlConnection cn = new SqlConnection(cadenaConexion);
-            int factura = -1;
             try
             {
                 SqlCommand cmd = new SqlCommand();
-                string consulta = "GetEntrega";
+                string consulta = "GetEstadoEntrega";
                 cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("@numero", numero);
-                cmd.Parameters.AddWithValue("@tipoFactura", tipoFactura);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = consulta;
 
                 cn.Open();
                 cmd.Connection = cn;
-                SqlDataReader da = cmd.ExecuteReader();
-                if (da.Read())
-                {
-                    factura = (int)da[0];
-                }
+
+                DataTable tabla = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tabla);
+
+                return tabla;
             }
             catch (Exception ex)
             {
@@ -150,8 +148,6 @@ namespace Ferreteria.AccesoADatos
             {
                 cn.Close();
             }
-            return factura;
         }
-
     }
 }

@@ -232,6 +232,7 @@ namespace Ferreteria
             //..
             //Your code
             //..
+            openChildForm(new ModificarEntrega());
             hideSubMenu();
         }
         #endregion

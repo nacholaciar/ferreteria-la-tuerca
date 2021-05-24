@@ -20,16 +20,14 @@ namespace Ferreteria
             try
             {
                 EmpleadoService.LlenarCombo(cmb_Empleado, AD_Empleados.ObtenerDatosEmpleado(), "nombre", "idEmpleado", -1);
-                EmpleadoService.LlenarCombo(CmbTipoFac, AD_Factura.ObtenerTipoFactura(), "descripcion", "Id Factura", -1);
+                EmpleadoService.LlenarCombo(CmbTipoFac, AD_Factura.ObtenerTipoFactura(), "descripcion", "IdFactura", -1);
             }
             catch (Exception)
             {
                 MessageBox.Show("Comuniquese con el administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
             }
-            
             cmb_Empleado.Enabled = false;
-            cmb_EstadoEntrega.Enabled = false;
             txt_fechaEntrega.Enabled = false;
         }
         private void Clear()
@@ -38,7 +36,6 @@ namespace Ferreteria
             CmbTipoFac.SelectedIndex = -1;
             txt_fechaEntrega.Text = "";
             cmb_Empleado.SelectedIndex = -1;
-            cmb_EstadoEntrega.SelectedIndex = -1;
         }
         private void Repeat2()
         {
@@ -47,7 +44,7 @@ namespace Ferreteria
             CmbTipoFac.Enabled = false;
             txt_fechaEntrega.Enabled = true;
             cmb_Empleado.Enabled = true;
-            cmb_EstadoEntrega.Enabled = true;
+
 
         }
         private void Repeat()
@@ -56,7 +53,8 @@ namespace Ferreteria
             try
             {
                 EmpleadoService.LlenarCombo(cmb_Empleado, AD_Empleados.ObtenerDatosEmpleado(), "nombre", "idEmpleado", -1);
-                EmpleadoService.LlenarCombo(CmbTipoFac, AD_Factura.ObtenerTipoFactura(), "descripcion", "Id Factura", -1);
+                EmpleadoService.LlenarCombo(CmbTipoFac, AD_Factura.ObtenerTipoFactura(), "descripcion", "IdFactura", -1);
+
             }
             catch (Exception)
             {
@@ -80,9 +78,9 @@ namespace Ferreteria
                 {
                     if (FacturaService.ConsultarFactura(int.Parse(txt_factura.Text),CmbTipoFac.SelectedIndex))
                     {
+                        dgv_Entrega.DataSource = EntregaService.CargarEntregas(int.Parse(txt_factura.Text),CmbTipoFac.SelectedIndex);
                         if (dgv_Entrega.Rows.Count != 0)
                         {
-                            dgv_Entrega.DataSource = EntregaService.CargarEntregas(int.Parse(txt_factura.Text));
                             MessageBox.Show("La Factura" + txt_factura.Text + " Ya tiene entrega vinculada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             Repeat();
                         }
@@ -112,11 +110,12 @@ namespace Ferreteria
             {
                 if (EmpleadoService.ValidarFecha(txt_fechaEntrega.Text) || txt_fechaEntrega.Text.Equals(""))
                 {
-                    if (cmb_EstadoEntrega.SelectedIndex != -1)
-                    {
-                        res = true;
-                    }
+                    res = true;
                 }
+            }
+            else
+            {
+                MessageBox.Show("Debe completar todos los campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return res;
         }
@@ -127,7 +126,7 @@ namespace Ferreteria
             entrega.NroFactura = int.Parse(txt_factura.Text);
             entrega.tipoFactura = CmbTipoFac.SelectedValue.ToString();
             entrega.FechaEntrega = Convert.ToDateTime(txt_fechaEntrega.Text);
-            entrega.EstadoEntrega = cmb_EstadoEntrega.SelectedValue.ToString();
+            entrega.EstadoEntrega = 3;
             entrega.tipoFactura = CmbTipoFac.SelectedValue.ToString() ;
 
             return entrega;
@@ -137,7 +136,7 @@ namespace Ferreteria
         {
             try
             {
-                if (ValidarCamposVacios())
+                if (!ValidarCamposVacios())
                 {
                     try
                     {
@@ -145,6 +144,7 @@ namespace Ferreteria
                         {
                             MessageBox.Show("Entrega Cargada con exito", "Exito");
                             Repeat();
+                            dgv_Entrega.DataSource = EntregaService.CargarEntregas(int.Parse(txt_factura.Text));
                         }
                     }
                     catch (Exception)
